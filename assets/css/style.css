@@ -1,0 +1,101 @@
+* {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit
+}
+#topnavbar li {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav {
+    text-align: right;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-style:groove;
+}
+
+#my-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+}
+
+#top-container {
+    display: flex;
+    flex-direction: row;
+    border-left: blue 5px solid;
+}
+
+#topbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutme-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+#work-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+#box1 {
+    background-image: url(C:\Users\Jonathan\bootcamp\Homework\myportfolio\myportfolio\imgs\prework-study-guide-pic.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#right-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: blue 5px solid;
+    width: 400px;
+} 
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    border: blue 5px solid;
+}
+
+#box1 {
+    width: 300px;
+}
+
+#contactme-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+#bottom-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: blue 5px solid;
+}
+
+#bottom-container li {
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    margin-left: 20px;
+}
