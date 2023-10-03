@@ -7,10 +7,10 @@ body {
     color:white;
 }
 
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
-}
+} */
 
 nav {
     background-color: green;
@@ -63,7 +63,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(70% - 150px);
+    width: calc(80% - 150px);
 }
 
 #aboutme-container {
@@ -85,7 +85,7 @@ img {
 }
 
 .left-container {
-    width: 25%;
+    width: 15%;
     font-size:xx-large;
     text-align: right;
     margin-right: 50px;
@@ -93,10 +93,9 @@ img {
 
 .right-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     border-left: green 5px solid;
-    width: 75%;
+    width: 85%;
 } 
 
 #box1 h4 {
@@ -112,7 +111,6 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
-    display: block;
 }
 
 #box2 {
@@ -120,27 +118,46 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    width: 45%;
+    padding-left: 10px;
+}
+
+#box3 {
+    background-image: url(../css/JS-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45%;
+    padding-left: 10px;
 }
 
 .box {
     display: flex;
     flex-wrap: wrap;
-    border: green 5px solid;
+    /* border: green 5px solid; */
 }
 
-#bottom-container {
+#box4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-left: green 5px solid;
+    width: 100%;
 }
 
-#bottom-container li {
+#box4 li {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0%;
     padding: 0%;
     display: inline-block;
     margin-left: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
 }
