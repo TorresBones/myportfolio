@@ -37,6 +37,7 @@ header {
     text-align: right;
     display: inline-block;
     padding: 25px;
+    font-size: xx-large;
 }
 
 img {
@@ -76,27 +77,19 @@ img {
     flex-direction: row;
     margin-right: 50px;
 }
+
+#contactme-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
 .left-container {
     width: 25%;
+    font-size:xx-large;
+    text-align: right;
+    margin-right: 50px;
 }
-
-#box1 h4 {
-    background-image: url(../css/html5-logo.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: block;
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-}
-
-
-#box1 {
-    width: 100%;
-    display: block;
-}
-   
 
 .right-container {
     display: flex;
@@ -106,17 +99,34 @@ img {
     width: 75%;
 } 
 
+#box1 h4 {
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#box1 {
+    background-image: url(../css/html5-logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    display: block;
+}
+
+#box2 {
+    background-image: url(../css/CSS-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+}
+
 .box {
     display: flex;
     flex-wrap: wrap;
     border: green 5px solid;
-}
-
-#contactme-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 50px;
 }
 
 #bottom-container {
