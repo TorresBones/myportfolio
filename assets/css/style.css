@@ -7,26 +7,33 @@ body {
     color:white;
 }
 
-/* html, body {
+html, body {
     margin: 0;
     padding: 0;
-} */
-
-nav {
-    background-color: green;
-    background-size: cover;
 }
 
-#topnavbar li {
-    display: inline-block;
-    text-align: right;
+nav {
+    height: 45px;
+    background-color: green;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+   display: flex;
+    justify-content: flex-end;
+    float: left;
     list-style-type: none;
     text-size-adjust: 40px;
     margin-left: 20px;
+    margin-right: 20px;
     color: white;
+    font-size: x-large;
 }
 
 header {
+    height: 125px;
     width: 100%;
     box-sizing: border-box;
     background-image: url(../css/binary-code.jpg);
@@ -34,8 +41,8 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: green;
-    text-align: right;
-    display: inline-block;
+    text-align: left;
+    display: block;
     padding: 25px;
     font-size: xx-large;
 }
@@ -95,11 +102,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     border-left: green 5px solid;
-    width: 85%;
+    width: 80%;
 } 
 
 #box1 h4 {
-    display: block;
+    display: flex;
     height: 500px;
     width: 500px;
     margin: 0 auto;
@@ -110,7 +117,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    width: 87%;
 }
 
 #box2 {
@@ -118,7 +125,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 45%;
+    width: 40%;
     padding-left: 10px;
 }
 
@@ -127,7 +134,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 45%;
+    width: 40%;
     padding-left: 10px;
 }
 
@@ -159,5 +166,8 @@ img {
 
 
 @media screen and (max-width: 600px) {
+    #box1 {
+    width: 25%;
+    }
 
 }
