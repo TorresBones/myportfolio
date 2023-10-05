@@ -2,7 +2,7 @@ body {
     background-color: black;
     font-style: normal;
     font-weight: lighter;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-style: inherit;
     color:white;
 }
@@ -32,6 +32,22 @@ nav li {
     font-size: x-large;
 }
 
+a:link {
+    color:rgb(13, 8, 8);
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: red;
+}
+
 header {
     height: 125px;
     width: 100%;
@@ -47,10 +63,19 @@ header {
     font-size: xx-large;
 }
 
+h2 {
+    text-align: left;
+}
+
+p {
+    margin: 15px;
+}
+
 img {
     width: 150px;
     height: auto;
     border-style:groove;
+    border: green;
 }
 
 #my-image {
@@ -105,15 +130,25 @@ img {
     width: 80%;
 } 
 
+.big-image {
+    width: 97%;
+}
+
+.small-image {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
 #box1 {
     height: 400px;
-    width: 500px;
+    /* width: 500px; */
     background-image: url(../css/html5-logo.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     padding-left: 10px;
-    width: 87%;
+    width: 86%;
 }
 
 #box2 {
@@ -135,8 +170,6 @@ img {
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
     border: green 2px solid;
 }
 
@@ -160,14 +193,14 @@ img {
 }
 
 #box1 h4 {
-    margin: 35% 50% 20% 1%;
+   position:relative;
+   margin: 10px;
 }
 
 h4 {
-    background-color: green;
-    background-size: cover;
-    
+    background-color: green;    
 }
+
 @media screen and (max-width: 600px) {
     /* #box1 {
     width: 25%;
