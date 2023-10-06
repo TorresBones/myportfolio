@@ -1,20 +1,21 @@
+/* Universal Style */
 body {
-    background-color: black;
+    background-color: lightgrey;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: bold;
     font-family:'Times New Roman', Times, serif;
     font-style: inherit;
-    color:white;
+    color: black;
 }
 
 html, body {
     margin: 0;
     padding: 0;
 }
-
+/* Header and Nav Styles */
 nav {
     height: 45px;
-    background-color: green;
+    background-color: black;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -32,20 +33,16 @@ nav li {
     font-size: x-large;
 }
 
-a:link {
-    color:rgb(13, 8, 8);
-}
-
-a:visited {
+nav a:link{
     color: white;
 }
 
-a:hover {
-    color: black;
+nav a:visited{
+    color: white;
 }
 
-a:active {
-    color: red;
+nav a:hover{
+    color: gray;
 }
 
 header {
@@ -56,7 +53,7 @@ header {
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: green;
+    background-color: gray;
     text-align: left;
     display: block;
     padding: 25px;
@@ -64,8 +61,29 @@ header {
 }
 
 h2 {
+    color: white;
     text-align: left;
+    font-style: italic;
 }
+
+/* Anchor Styles */
+a:link {
+    color:white;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+/* Body style */
 
 p {
     margin: 15px;
@@ -75,7 +93,7 @@ img {
     width: 150px;
     height: auto;
     border-style:groove;
-    border: green;
+    border: black;
 }
 
 #my-image {
@@ -88,7 +106,7 @@ img {
 #top-container {
     display: flex;
     flex-direction: row;
-    border-left: green 5px solid;
+    border-left: black 5px solid;
 }
 
 #topbox {
@@ -102,6 +120,11 @@ img {
     display: flex;
     flex-direction: row;
     margin-right: 50px;
+}
+
+#aboutme-container .right-container {
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 #work-container {
@@ -125,8 +148,8 @@ img {
 
 .right-container {
     display: flex;
-    flex-wrap: wrap;
-    border-left: green 5px solid;
+    flex-direction: column;
+    border-left: black 5px solid;
     width: 80%;
 } 
 
@@ -134,15 +157,25 @@ img {
     width: 97%;
 }
 
-.small-image {
+.small-images {
     display: flex;
-    flex-direction: row;
-    width: 48%;
+    flex-wrap: wrap;
+    width: 97%;
+}
+
+.small-images a {
+    display: block;
+    width: 41%;
+    padding: 20px;
+}
+
+.box {
+    border: black 2px solid;
 }
 
 #box1 {
+    display: block;
     height: 400px;
-    /* width: 500px; */
     background-image: url(../css/html5-logo.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,59 +184,74 @@ img {
     width: 86%;
 }
 
+#box1 h4 {
+    position:relative;
+    margin: 20px;
+ }
+ 
+ h4 {
+     display: inline-flex;
+     background-color: gray;
+ }
+
 #box2 {
     background-image: url(../css/CSS-logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    width: 40%;
-    padding-left: 10px;
+    background-position: center;
+    width: 100%;
 }
 
 #box3 {
     background-image: url(../css/JS-logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    width: 40%;
+    background-position: center;
+    width: 100%;
     padding-left: 10px;
-}
-
-.box {
-    border: green 2px solid;
 }
 
 #box4 {
     display: flex;
     flex-direction: row;
-    width: 87%;
+    width: 85%;
     align-content: center;
 }
 
-#box4 li {
+#box4 ul {
     display: flex;
     flex-direction: row;
-    float: left;
+    justify-content: space-around;
     list-style-type: none;
     text-size-adjust: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
     color: white;
     font-size: x-large;
+    width: 100%;
 }
 
-#box1 h4 {
-   position:relative;
-   margin: 10px;
+/* Footer Style */
+
+footer {
+    display: block;
+    text-align:center;
+    background-color: black;
+    width: 100%;
 }
 
-h4 {
-    background-color: green;    
+footer h4 {
+    font-size: x-large;
+    color: white;
+    background-color: black;
 }
+
+/* Media Query */
 
 @media screen and (max-width: 600px) {
-    /* #box1 {
-    width: 25%;
-    } */
-
+    body {
+    background-color: red;
+    display:flex;
+    flex-wrap: wrap;
+    }
 }

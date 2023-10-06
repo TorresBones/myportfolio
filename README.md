@@ -1,10 +1,13 @@
 # My Portfolio
 
 ## Description
-In this work I have created my own portfolio using CSS, it was challenging and fun at the same time but at the end I feel good with what I've accomplished, you that are visiting my portfolio I hope that you have a good time reading about me, seeing my  different type of projects and reading my codes.
+ I have created my own portfolio using CSS. The task was challenging but in the end, I felt good with what I accomplished. For those that are reviewing my portfolio, I hope that you are inspired and encouraged after getting to know me and seeing all that I have created.
 
 ## Usage
-I've created this portfolio so different coders would of known me better and contact me with any questions or concerns.
+I've created this portfolio so that anyone, anywhere would be able to see my work and be able to contact me with any questions or concerns.
+
+## Screenshots
+
 
 ## License
 MIT License
