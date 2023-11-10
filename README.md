@@ -7,7 +7,11 @@
 I've created this portfolio so that anyone, anywhere would be able to see my work and be able to contact me with any questions or concerns.
 
 ## Screenshots and Live Link
-![image](https://github.com/TorresBones/myportfolio/assets/143949132/0debe8bd-95b8-43aa-b440-0afb9c6e8dd7)
+![image](https://github.com/TorresBones/myportfolio/assets/143949132/d8616d7d-36e3-4229-baf2-8788daa12afb)
+
+![image](https://github.com/TorresBones/myportfolio/assets/143949132/a811b1bb-0228-4724-be8a-9d9217743793)
+
+
 
 Live Link: https://torresbones.github.io/myportfolio/
 
