@@ -68,15 +68,15 @@ h2 {
 
 /* Anchor Styles */
 a:link {
-    color:white;
+    color:gray;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: white;
+    color: gray;
 }
 
 a:active {
@@ -137,6 +137,7 @@ img {
     display: flex;
     flex-direction: row;
     margin-right: 50px;
+    color: white;
 }
 
 .left-container {
@@ -216,6 +217,7 @@ img {
     flex-direction: row;
     width: 85%;
     align-content: center;
+    color: white;
 }
 
 #box4 ul {
@@ -235,9 +237,14 @@ img {
 
 footer {
     display: block;
+    color: white;
     text-align:center;
     background-color: black;
     width: 100%;
+}
+
+footer li {
+    color: white;
 }
 
 footer h4 {
