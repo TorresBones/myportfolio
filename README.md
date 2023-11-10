@@ -7,7 +7,9 @@
 I've created this portfolio so that anyone, anywhere would be able to see my work and be able to contact me with any questions or concerns.
 
 ## Screenshots
+![Screenshot1](C:\Users\Jonathan\bootcamp\Homework\myportfolio\myportfolio\imgs\Screenphoto1.JPG)
 
+![Screenshot2](C:\Users\Jonathan\bootcamp\Homework\myportfolio\myportfolio\imgs\Screenphoto2.JPG)
 
 ## License
 MIT License
