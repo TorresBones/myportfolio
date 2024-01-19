@@ -71,6 +71,7 @@ a:link {
     color:gray;
 }
 
+
 a:visited {
     color: white;
 }
@@ -210,6 +211,16 @@ img {
     background-position: center;
     width: 100%;
     padding-left: 10px;
+}
+
+#box5 {
+    background-image: url(../imgs/Project3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-left: 10px;
+    color: white;    
 }
 
 #box4 {
